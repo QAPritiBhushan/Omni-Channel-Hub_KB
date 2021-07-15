@@ -1,7 +1,8 @@
-class OTP:
+class OTPConfirmation:
     text_enterOTP_id = "otp"
     button_continue_xpath = "//button[@type='submit']"
     button_sendAgain_xpath = "//span[text()='SEND AGAIN']"
+
 
 
     def __init__(self,driver):

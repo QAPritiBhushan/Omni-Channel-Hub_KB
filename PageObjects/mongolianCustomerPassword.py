@@ -2,6 +2,8 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 class MongolianCustomerPassword:
+    link_foreignCustomer_xpath = "/html[1]/body[1]/div[1]/div[1]/section[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]"
+    link_corporateCustomer_xpath = "/html[1]/body[1]/div[1]/div[1]/section[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]/a[1]"
     title_forgotPassword_xpath = "//span[@title='Forgot Password']"
     text_username_id = "customerAuthForm_loginUserId"
     dropdown_reg1_xpath = "//input[@type='search'])[1]"
@@ -35,5 +37,8 @@ class MongolianCustomerPassword:
 
     def clickOnContinue(self):
         self.driver.find_element_by_xpath(self.button_continue_xpath).click()
+
+    def clickOnForeignCustomer(self):
+        self.driver.find_element_by_xpath(self.link_foreignCustomer_xpath).click()
 
 

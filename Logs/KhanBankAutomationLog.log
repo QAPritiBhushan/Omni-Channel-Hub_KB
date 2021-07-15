@@ -1,58 +1,48 @@
-13-Jul-21 12:54:03 - ====== WebDriver manager ======
-13-Jul-21 12:54:04 - Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-13-Jul-21 12:54:05 - *****Driver Initialized*****
-13-Jul-21 12:54:24 - *****Homepage title matches*****
-13-Jul-21 12:54:25 - *****Expected Element Login Password Radio Button Found*****
-13-Jul-21 12:54:26 - *****Homepage title matches*****
-13-Jul-21 12:54:27 - Browser is closed
-13-Jul-21 12:54:27 - ====== WebDriver manager ======
-13-Jul-21 12:54:27 - Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-13-Jul-21 12:54:28 - *****Driver Initialized*****
-13-Jul-21 12:54:44 - *****Homepage title matches*****
-13-Jul-21 12:54:45 - *****Expected Element Login Password Radio Button Found*****
-13-Jul-21 12:54:46 - *****Homepage title matches*****
-13-Jul-21 12:54:47 - Browser is closed
-13-Jul-21 12:54:47 - ====== WebDriver manager ======
-13-Jul-21 12:54:47 - Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-13-Jul-21 12:54:49 - *****Driver Initialized*****
-13-Jul-21 12:55:10 - *****Homepage title matches*****
-13-Jul-21 12:55:10 - *****Expected Element Login Password Radio Button Found*****
-13-Jul-21 12:55:14 - Warning message - Select Password Type is displayed
-13-Jul-21 12:55:14 - Browser is closed
-\91.0.864.67\msedgedriver.exe] found in cache
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Homepage title matches*****
-*****Homepage title matches*****
-*****Homepage title matches*****
-*****Expected Element Login Password Radio Button Found*****
-*****Expected Element Login Password Radio Button Found*****
-*****Expected Element Login Password Radio Button Found*****
-*****Homepage title matches*****
-*****Homepage title matches*****
-*****Homepage title matches*****
-Browser is closed
-Browser is closed
-Browser is closed
-====== WebDriver manager ======
-====== WebDriver manager ======
-====== WebDriver manager ======
+15-Jul-21 11:33:10 - ====== WebDriver manager ======
+15-Jul-21 11:33:11 - Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
+15-Jul-21 11:33:13 - *****Driver Initialized*****
+15-Jul-21 11:33:44 - *****Homepage title matches****
+15-Jul-21 11:33:44 - *****Expected Element Login Password Radio Button Found*****
+15-Jul-21 11:33:46 - *****Expected Element Passport Number Field Found*****
+15-Jul-21 11:33:46 - *****Clicked On Continue*****
+15-Jul-21 11:33:48 - *****Expected Element Email Radio Button Found*****
+
 Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
 Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
 Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
 *****Driver Initialized*****
 *****Driver Initialized*****
 *****Driver Initialized*****
-*****Homepage title matches*****
-*****Homepage title matches*****
-*****Homepage title matches*****
+*****Driver Initialized*****
+*****Driver Initialized*****
+*****Driver Initialized*****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
-Warning message - Select Password Type is displayed
-Warning message - Select Password Type is displayed
-Warning message - Select Password Type is displayed
-Browser is closed
-Browser is closed
-Browser is closed
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****

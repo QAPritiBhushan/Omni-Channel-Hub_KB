@@ -24,22 +24,27 @@ def step_impl(context):
     login_page = Login(context.driver)
     try:
 
-        context.driver.get(Constants.BASE_URL)
+        context.driver.get(Constants.RETAIL_URL)
         context.driver.maximize_window()
-        forgot_password_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located(()))
-        if context.driver.title == Constants.HOMEPAGE_TITLE:
+        login_page.clearDomain()
+        login_page.setRetailDomain()
+        login_page.clickOnDomainButton()
+
+        if context.driver.title == Constants.RETAIL_HOMEPAGE_TITLE:
             assert True
-            context.driver.save_screenshot(".\\Screenshots\\"+"LoginPage.png")
-            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank LoginPage",attachment_type = AttachmentType.PNG)
+            context.driver.save_screenshot(".\\Screenshots\\" + "LoginPage.png")
+            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank in Retail Domain - LoginPage Displayed",
+                          attachment_type=AttachmentType.PNG)
             myLogger.info("*****Homepage title matches****")
         else:
             assert False
             context.driver.save_screenshot(".\\Screenshots\\" + "LoginPage.png")
-            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank LoginPage",
+            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank in Retail Domain - LoginPage Not Displayed",
                           attachment_type=AttachmentType.PNG)
             myLogger.info("*****Homepage title does not match*****")
-    except:
-        #myLogger.exception("Error occured during execution: %s", e.message)
+    except Exception as e:
+        myLogger.exception(e)
+        context.driver.close()
         myLogger.info("*****Unable to launch the application")
 
 @when(u'I click on Forgot Password link')
@@ -52,7 +57,7 @@ def step_impl(context):
     try:
         login_page.clickOnForgotPassword()
         login_password_element = WebDriverWait(context.driver, 10).until(
-            EC.presence_of_element_located((select_password_page.elementLoginPassword())))
+            EC.presence_of_element_located((By.XPATH,"//input[@value='SPWD']")))
         assert True
         context.driver.save_screenshot(".\\Screenshots\\" + "SelectPasswordPage.png")
         allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Select Password Page",
@@ -62,7 +67,7 @@ def step_impl(context):
     except Exception as e:
         myLogger.exception(e)
         context.driver.close()
-        myLogger.info("*****Unable to click on Forgot Password Link******")
+        myLogger.info("*****Expected Element Login Password Radio Button Not Found******")
 
 
 @when(u'I select the login password to be reset')
@@ -79,27 +84,32 @@ def step_impl(context):
     select_password_page.selectTransactionPassword()
     select_password_page.clickOnContinue()
 
+@when(u'I select the transaction password to be reset')
+def step_impl(context):
+    global select_password_page
+    select_password_page = SelectPwd(context.driver)
+    select_password_page.selectTransactionPassword()
+    select_password_page.clickOnContinue()
+
 
 @then(u'I should be displayed with the Forgot password page for Mongolian Customer')
 def step_impl(context):
     global mongolian_customer_password_page
     mongolian_customer_password_page = MongolianCustomerPassword(context.driver)
     try:
-        if context.driver.title == Constants.HOMEPAGE_TITLE:
-            assert True
-            context.driver.save_screenshot(".\\Screenshots\\" + "ForgotPWDPageMongolian.png")
-            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Forgot Password Page for Mongolian Customers",
+        username_element = WebDriverWait(context.driver, 10).until(
+            EC.presence_of_element_located((By.ID,"customerAuthForm_loginUserId")))
+        assert True
+        context.driver.save_screenshot(".\\Screenshots\\" + "ForgotPWDPageMongolian.png")
+        allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Forgot Password Page for Mongolian Customers Displayed",
                           attachment_type=AttachmentType.PNG)
-            myLogger.info("*****Homepage title matches*****")
-        else:
-            context.driver.save_screenshot(".\\Screenshots\\" + "ForgotPWDPageMongolian.png")
-            allure.attach(context.driver.get_screenshot_as_png(),
-                          name="Khan Bank Forgot Password Page for Mongolian Customers",
-                          attachment_type=AttachmentType.PNG)
-            myLogger.info("*****Homepage title does not match*****")
-    except:
-        #myLogger.exception("Error occured during execution: %s", e.message)
-        myLogger.info("*****Unable to verify the title*****")
+        myLogger.info("*****Expected Element Username Text field Found*****")
+
+    except Exception as e:
+        myLogger.exception(e)
+        context.driver.close()
+        myLogger.info("*****Expected Element Username Text field Not Found******")
+
 
 @then(u'I click on Continue button without selecting a password')
 def step_impl(context):
@@ -118,21 +128,19 @@ def step_impl(context):
         if warning_select_password_msg == "Нууц үгийн төрөл сонгоно уу":
             assert True
             context.driver.save_screenshot(".\\Screenshots\\" + "SelectPWDTypeWarning.png")
-            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Select Password Type Warning",
+            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Select Password Type Warning Displayed",
                           attachment_type=AttachmentType.PNG)
             myLogger.info("Warning message - Select Password Type is displayed")
         else:
             assert False
             context.driver.save_screenshot(".\\Screenshots\\" + "NoSelectPWDTypeWarning.png")
-            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Select Password Type Warning Not displayed",
+            allure.attach(context.driver.get_screenshot_as_png(), name="Khan Bank Select Password Type Warning Not Displayed",
                           attachment_type=AttachmentType.PNG)
             myLogger.info("Warning message - Select Password Type is not displayed")
     except Exception as e:
         myLogger.exception(e)
         context.driver.close()
         myLogger.info("Unable to test the negative test - Without selecting a password type ")
-
-
 
 
 @then(u'I close the browser')
