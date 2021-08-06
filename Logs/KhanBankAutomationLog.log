@@ -1,21 +1,20 @@
-15-Jul-21 11:33:10 - ====== WebDriver manager ======
-15-Jul-21 11:33:11 - Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-15-Jul-21 11:33:13 - *****Driver Initialized*****
-15-Jul-21 11:33:44 - *****Homepage title matches****
-15-Jul-21 11:33:44 - *****Expected Element Login Password Radio Button Found*****
-15-Jul-21 11:33:46 - *****Expected Element Passport Number Field Found*****
-15-Jul-21 11:33:46 - *****Clicked On Continue*****
-15-Jul-21 11:33:48 - *****Expected Element Email Radio Button Found*****
+06-Aug-21 07:08:53 - *****Mozilla FIrefox Driver Initialized*****
+06-Aug-21 07:09:12 - *****Homepage title matches****
+06-Aug-21 07:09:12 - *****Expected Element Login Password Radio Button Found*****
+06-Aug-21 07:09:13 - *****Expected Element Username Text field Found*****
+06-Aug-21 07:09:28 - *****Clicked On Continue*****
+06-Aug-21 07:09:28 - *****Expected Element Email Radio Button Found*****
+06-Aug-21 07:09:29 - *****Clicked On Continue*****
+06-Aug-21 07:09:39 - Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
 
-Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedgedriver.exe] found in cache
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Driver Initialized*****
-*****Driver Initialized*****
+06-Aug-21 07:09:40 - *****Unable to verify the presence of Enter OTP element*****
+ches****
 *****Homepage title matches****
 *****Homepage title matches****
 *****Homepage title matches****
@@ -28,12 +27,42 @@ Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedge
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
-*****Expected Element Passport Number Field Found*****
-*****Expected Element Passport Number Field Found*****
-*****Expected Element Passport Number Field Found*****
-*****Expected Element Passport Number Field Found*****
-*****Expected Element Passport Number Field Found*****
-*****Expected Element Passport Number Field Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Expected Element Username Text field Found*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
 *****Clicked On Continue*****
 *****Clicked On Continue*****
 *****Clicked On Continue*****
@@ -46,3 +75,173 @@ Driver [C:\Users\Ishwarya Manoj\.wdm\drivers\edgedriver\win64\91.0.864.67\msedge
 *****Expected Element Email Radio Button Found*****
 *****Expected Element Email Radio Button Found*****
 *****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Expected Element Email Radio Button Found*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+*****Clicked On Continue*****
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Message: 
+Traceback (most recent call last):
+  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
+    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
+  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****
+*****Unable to verify the presence of Enter OTP element*****

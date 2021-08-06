@@ -1,3 +1,6 @@
+from selenium.webdriver.common.keys import Keys
+
+
 class CorporateCustomerPassword:
     text_username_id = "customerAuthForm_loginUserId"
     text_registratioNumber_id = "customerAuthForm_registrationNumber"
@@ -14,3 +17,15 @@ class CorporateCustomerPassword:
 
     def clickOnContinue(self):
         self.driver.find_element_by_xpath(self.button_continue_xpath).click()
+
+    def clearUsername(self):
+        self.driver.find_element_by_xpath(self.text_username_id).send_keys(Keys.CONTROL + "a")
+        self.driver.find_element_by_xpath(self.text_username_id).send_keys(Keys.DELETE)
+        self.driver.find_element_by_xpath(self.text_username_id).send_keys(Keys.CONTROL + "a")
+        self.driver.find_element_by_xpath(self.text_username_id).send_keys(Keys.DELETE)
+
+    def clearRegistrationNumber(self):
+        self.driver.find_element_by_xpath(self.text_registratioNumber_id).send_keys(Keys.CONTROL + "a")
+        self.driver.find_element_by_xpath(self.text_registratioNumber_id).send_keys(Keys.DELETE)
+        self.driver.find_element_by_xpath(self.text_registratioNumber_id).send_keys(Keys.CONTROL + "a")
+        self.driver.find_element_by_xpath(self.text_registratioNumber_id).send_keys(Keys.DELETE)
