@@ -1,23 +1,18 @@
-06-Aug-21 07:08:53 - *****Mozilla FIrefox Driver Initialized*****
-06-Aug-21 07:09:12 - *****Homepage title matches****
-06-Aug-21 07:09:12 - *****Expected Element Login Password Radio Button Found*****
-06-Aug-21 07:09:13 - *****Expected Element Username Text field Found*****
-06-Aug-21 07:09:28 - *****Clicked On Continue*****
-06-Aug-21 07:09:28 - *****Expected Element Email Radio Button Found*****
-06-Aug-21 07:09:29 - *****Clicked On Continue*****
-06-Aug-21 07:09:39 - Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-06-Aug-21 07:09:40 - *****Unable to verify the presence of Enter OTP element*****
-ches****
-*****Homepage title matches****
-*****Homepage title matches****
-*****Homepage title matches****
+06-Aug-21 12:08:38 - *****Mozilla FIrefox Driver Initialized*****
+06-Aug-21 12:09:27 - *****Homepage title matches****
+06-Aug-21 12:09:28 - *****Expected Element Login Password Radio Button Found*****
+06-Aug-21 12:09:29 - *****Expected Element Passport Number Field Found*****
+06-Aug-21 12:09:30 - *****Warning Message to Enter username is displayed
+06-Aug-21 12:09:30 - *****Warning Message to Enter Passport Number is displayed
+06-Aug-21 12:09:38 - *****Mozilla FIrefox Driver Initialized*****
+06-Aug-21 12:10:29 - *****Homepage title matches****
+06-Aug-21 12:10:29 - *****Expected Element Login Password Radio Button Found*****
+06-Aug-21 12:10:31 - *****Expected Element Passport Number Field Found*****
+06-Aug-21 12:10:31 - *****Foreign Customer Data Entered*****
+06-Aug-21 12:10:32 - *****Clicked On Continue*****
+06-Aug-21 12:10:33 - *****Expected Element Email Radio Button Found*****
+06-Aug-21 12:10:41 - *****Mozilla FIrefox Driver Initialized*****
+age title matches****
 *****Homepage title matches****
 *****Homepage title matches****
 *****Homepage title matches****
@@ -34,28 +29,110 @@ ches****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter username is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Warning Message to Enter Passport Number is displayed
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
+*****Homepage title matches****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
 *****Expected Element Login Password Radio Button Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Expected Element Username Text field Found*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Login Password Radio Button Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Expected Element Passport Number Field Found*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
+*****Foreign Customer Data Entered*****
 *****Clicked On Continue*****
 *****Clicked On Continue*****
 *****Clicked On Continue*****
@@ -82,166 +159,16 @@ ches****
 *****Expected Element Email Radio Button Found*****
 *****Expected Element Email Radio Button Found*****
 *****Expected Element Email Radio Button Found*****
-*****Expected Element Email Radio Button Found*****
-*****Expected Element Email Radio Button Found*****
-*****Expected Element Email Radio Button Found*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-*****Clicked On Continue*****
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Message: 
-Traceback (most recent call last):
-  File "Features\steps\forgotPWD_SPWD_TPWD_mongolian_steps.py", line 95, in display_otp_page
-    timer_element = WebDriverWait(context.driver, 10).until(EC.presence_of_element_located((By.XPATH,"//span[@class='ant-typography timer'][text()='15:00']")))
-  File "c:\users\ishwarya manoj\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
-*****Unable to verify the presence of Enter OTP element*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****
+*****Mozilla FIrefox Driver Initialized*****

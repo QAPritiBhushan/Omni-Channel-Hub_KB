@@ -76,18 +76,6 @@ def set_transaction_pwd_corporate(context):
         myLogger.info("*****New TPWD for Corporate Customer Not entered*****")
 
 
-@then(u'I click on Continue button without entering username and registration number')
-def continue_without_username_regnum(context):
-    global corporate_customer_page
-    try:
-        corporate_customer_page = CorporateCustomerPassword(context.driver)
-        corporate_customer_page.clickOnContinue()
-    except Exception as e:
-        myLogger.exception(e)
-        context.driver.close()
-        myLogger.info("*****Unable to Click on Continue*****")
-
-
 
 @then(u'User should be displayed with a warning message for the username field for Corporate Customer')
 def username_warning_corporate(context):

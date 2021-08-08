@@ -30,6 +30,7 @@ class Login:
 
     def clickOnDomainButton(self):
         self.driver.find_element_by_xpath(self.button_domain_xpath).click()
+        self.driver.refresh()
 
     def setLanguage(self):
         self.driver.find_element_by_xpath(self.link_language_xpath).click()
