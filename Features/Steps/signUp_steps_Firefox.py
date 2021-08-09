@@ -14,7 +14,6 @@ myLogger = LogGen.logGen()
 
 @given(u'I launch the Khan Bank Corporate application in Firefox')
 def step_impl(context):
-    #context.driver = webdriver.Firefox()
     myLogger.info("*****Driver Initialized*****")
     global login_page
     login_page = Login(context.driver)
