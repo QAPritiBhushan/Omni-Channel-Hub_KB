@@ -1,8 +1,8 @@
-from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from Utilities.constants import Constants
-
 
 class Login:
     link_language_xpath = "//button[@class='ant-btn ant-btn-link button-language']"
@@ -11,16 +11,36 @@ class Login:
     button_login_xpath = "//button[@type='submit']"
     link_forgotPassword_xpath = "//a[@href='/auth/forgotpassword/step/1']"
     text_domain_xpath = "//input[@type='text']"
+    button_domain_xpath = "//button[@class='ant-btn ant-btn-primary']"
+
+
+    link_signup_xpath = "//a[@href='/auth/signup/step/1']"
     button_domain_xpath = "//span[text()='Хадгалах']"
     checkbox_rememberMe_xpath = "//span[@class='ant-checkbox ant-checkbox-checked']"
 
     def __init__(self,driver):
         self.driver = driver
 
+    def setDomain(self):
+        #easygui.msgbox("insidedomain")
+
+        self.driver.find_element_by_xpath(self.text_domain_xpath).clear()
+        self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys()
+
+
+    def clickOnSignupLink(self):
+        wait = WebDriverWait(self.driver, 30)
+        SignupLink = wait.until(EC.element_to_be_clickable((By.XPATH, self.link_signup_xpath)))
+        SignupLink.click()
+
+
+
     def clearDomain(self):
         self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys(Keys.CONTROL + "a")
         self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys(Keys.DELETE)
-
+    def clearDomain(self):
+        self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys(Keys.CONTROL + "a")
+        self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys(Keys.DELETE)
 
     def setRetailDomain(self):
         self.driver.find_element_by_xpath(self.text_domain_xpath).send_keys(Constants.RETAIL_DOMAIN)
@@ -34,9 +54,10 @@ class Login:
 
     def setLanguage(self):
         self.driver.find_element_by_xpath(self.link_language_xpath).click()
-
     def setUserName(self, username):
         self.driver.find_element_by_id(self.text_username_id).send_keys(username)
+    def setpassword(self, password):
+        self.driver.find_element_by_id(self.text_password_id).send_keys(password)
 
     def setpassword(self, password):
         self.driver.find_element_by_id(self.text_password_id).send_keys(password)
@@ -46,10 +67,8 @@ class Login:
 
     def clickOnLogin(self):
         self.driver.find_element_by_xpath(self.button_login_xpath).click()
-
     def clickOnForgotPassword(self):
         self.driver.find_element_by_xpath(self.link_forgotPassword_xpath).click()
-
     def elementForgotPassword(self):
         self.driver.find_element_by_xpath(self.link_forgotPassword_xpath)
 
@@ -67,10 +86,6 @@ class Login:
         self.driver.find_element_by_id(self.text_password_id).send_keys(Keys.DELETE)
         self.driver.find_element_by_id(self.text_password_id).send_keys(Keys.CONTROL + "a")
         self.driver.find_element_by_id(self.text_password_id).send_keys(Keys.DELETE)
-
-
-
-
 
 
 
