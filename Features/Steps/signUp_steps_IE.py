@@ -124,7 +124,7 @@ def EnterFieldsIE(context):
     login_page = Login(context.driver)
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Datasheet_Signup1")
 
     for r in range(3, rows + 1):

@@ -39,7 +39,7 @@ def Validvalues(context):
     global signup_page
     signup_page = Signup(context.driver)
 
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Valid_Data")
     # easygui.msgbox(rows)
     Reg_number = Utilities.excelUtils.readData(data_sheet_path, "Valid_Data", 2, 1)
@@ -72,7 +72,7 @@ def Validvalues(context):
 def Validvalues(context):
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Valid_Data")
     # easygui.msgbox(rows)
     Reg_number = Utilities.excelUtils.readData(data_sheet_path, "Valid_Data", 2, 1)
@@ -105,7 +105,7 @@ def Validvalues(context):
     global signup_page
     signup_page = Signup(context.driver)
 
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Datasheet_Signup3")
     for r in range(3, rows + 1):
         Reg_number = Utilities.excelUtils.readData(data_sheet_path, "Datasheet_Signup3", r, 3)
@@ -144,7 +144,7 @@ def Validvalues(context):
 def Validvalues2(context):
         global signup_page
         signup_page = Signup(context.driver)
-        data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+        data_sheet_path = ".\\TestData\\signupData.xlsx"
 
         Reg_number = Utilities.excelUtils.readData(data_sheet_path, "Valid_Data", 2, 1)
         Emailid = Utilities.excelUtils.readData(data_sheet_path, "Valid_Data", 2, 2)
@@ -175,7 +175,7 @@ def EnterFields(context):
     login_page = Login(context.driver)
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Datasheet_Signup1")
 
     for r in range(3, rows + 1):
@@ -213,7 +213,7 @@ def EnterFields(context):
     login_page = Login(context.driver)
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Datasheet_Signup1")
 
     for r in range(3, rows + 1):
@@ -249,7 +249,7 @@ def EnterFields2(context):
     login_page = Login(context.driver)
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Invalid_Email")
 
     Reg_number = Utilities.excelUtils.readData(data_sheet_path,"Invalid_Email",2 ,1)
@@ -283,7 +283,7 @@ def EnterFields(context):
     login_page = Login(context.driver)
     global signup_page
     signup_page = Signup(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "Datasheet_Signup4")
 
     for r in range(3, rows + 1):
@@ -358,7 +358,7 @@ def CheckAllcharFor_dropdown(context):
 def step_impl(context):
     global otp_confirmation_page
     otp_confirmation_page = OTPConfirmation(context.driver)
-    data_sheet_path = ".\\TestData\\DataSheet.xlsx"
+    data_sheet_path = ".\\TestData\\signupData.xlsx"
     rows = Utilities.excelUtils.getRowCount(data_sheet_path, "OTP_SignUp")
 
     for r in range(3, rows + 1):
